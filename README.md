@@ -9,3 +9,13 @@ https://github.com/hamadmarri/cachy-sched
 - AMD only
 - Enable RAM compressed block as default: LZ4
 - Governor performance
+
+---
+
+```bash
+make -j`nproc` menuconfig
+make -j`nproc` modules_install
+make -j`nproc` install
+```
+
+![lscpu](https://i.ibb.co/37NLdHG/lscpu.png)
