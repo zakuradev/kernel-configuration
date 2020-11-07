@@ -7,5 +7,5 @@ https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanm
 https://github.com/hamadmarri/cachy-sched
 - Disable numa & tracing
 - AMD only
-- Enable RAM compressed block: LZ4
+- Enable RAM compressed block as default: LZ4
 - Governor performance
