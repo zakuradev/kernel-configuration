@@ -11,11 +11,12 @@ https://github.com/hamadmarri/cachy-sched
 - Governor performance
 
 ---
-
+*/usr/src/linux*
 ```bash
 make -j`nproc` menuconfig
 make -j`nproc` modules_install
 make -j`nproc` install
 ```
-
-![lscpu](https://i.ibb.co/37NLdHG/lscpu.png)
+<p align="center">
+  <img alt="neofetch" align="center" src="https://i.ibb.co/dGT7TXx/2020-11-08-113106-581x492-scrot-framed.png"/>
+</p>
