@@ -7,7 +7,7 @@ https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanm
 https://github.com/hamadmarri/cachy-sched
 - Disable numa & tracing
 - AMD only
-- Enable RAM compressed block as default: LZ4
+- Enable Swap compressed block as default: LZ4
 - Governor performance
 
 ---
@@ -18,5 +18,5 @@ make -j`nproc` modules_install
 make -j`nproc` install
 ```
 <p align="center">
-  <img alt="neofetch" align="center" src="https://i.ibb.co/dGT7TXx/2020-11-08-113106-581x492-scrot-framed.png"/>
+  <img alt="neofetch" align="center" src="https://i.ibb.co/3yPLMqg/2020-11-11-002728-581x492-scrot-w-FRAME.png"/>
 </p>
