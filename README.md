@@ -18,5 +18,5 @@ make -j`nproc` modules_install
 make -j`nproc` install
 ```
 <p align="center">
-  <img alt="neofetch" align="center" src="https://i.ibb.co/3yPLMqg/2020-11-11-002728-581x492-scrot-w-FRAME.png"/>
+  <img alt="neofetch" align="center" src="https://i.ibb.co/x22210r/2020-11-14-110524-581x492-scrot-w-FRAME.png"/>
 </p>
