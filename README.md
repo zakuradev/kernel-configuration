@@ -8,10 +8,10 @@
 - bzImage: LZ4
 - [Xanmod based patchset](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
 - [Cachy CPU Scheduler](https://github.com/hamadmarri/cacule-cpu-scheduler) (cachy + idle balance)
-- Disable numa, debugging, etc. (kernel hacking)
-- Enable Swap compressed block as default: LZ4
+- Disabled numa, debugging, etc. (kernel hacking)
+- Enabled swap compressed block as default: LZ4
 - AMD only (disabled most intel features)
-- Governor performance
+- Governor performance as default
 - Custom boot logo - [UwU](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm)
 
 ## [home_username_.config](./home_username_.config)
