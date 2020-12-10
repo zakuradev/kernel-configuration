@@ -22,6 +22,8 @@
 */usr/src/linux*
 ```bash
 cp .config_violet .config
+patch -p1 < /path_extracted_cachy/cachy-5.9-r8.patch
+patch -p1 < /path_extracted_cachy/02-idle_balance.patch
 make -j`nproc` LSMOD=/home/username/.config/modprobed.db localmodconfig
 make -j`nproc` modules_install
 make -j`nproc` install
