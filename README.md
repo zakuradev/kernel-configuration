@@ -21,7 +21,6 @@
 ---
 */usr/src/linux*
 ```bash
-make -j`nproc` menuconfig
 cp .config_violet .config
 make -j`nproc` LSMOD=/home/username/.config/modprobed.db localmodconfig
 make -j`nproc` modules_install
