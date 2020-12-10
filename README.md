@@ -26,6 +26,8 @@ make -j`nproc` LSMOD=/home/username/.config/modprobed.db localmodconfig
 make -j`nproc` modules_install
 make -j`nproc` install
 ```
+
+[related](https://github.com/owl4ce/hold-my-gentoo)
 <p align="center">
   <img alt="thunar" align="center" src="./thunar.png"/>
 </p>
