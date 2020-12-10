@@ -1,5 +1,9 @@
 ## violet-x86_64 (Gentoo)<img alt="Visits" align="right" src="https://badges.pufler.dev/visits/owl4ce/violet-x86_64?style=flat-square&label=&color=success&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
+<p align="center">
+  <img alt="neofetch" align="center" src="./neofetch.png"/>
+</p>
+
 ## [usr_src_linux](./usr_src_linux)
 - bzImage: LZ4
 - [Xanmod based patchset](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
@@ -23,6 +27,5 @@ make -j`nproc` modules_install
 make -j`nproc` install
 ```
 <p align="center">
-  <img alt="neofetch" align="center" src="./neofetch.png"/>
   <img alt="thunar" align="center" src="./thunar.png"/>
 </p>
